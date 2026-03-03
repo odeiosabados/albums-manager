@@ -32,7 +32,7 @@ void aumenta_colecao(album* &colecao, int &MAX, int num_alb) {
 }
 
 int cria_id (album p) { //funcao gera um ID de 4 digitos apartir da soma dos campos (nome, genero, ano, num de musicas)
-	int t = 27, soma = 0, soma2 = 0;
+	int t = 53, soma = 0, soma2 = 0;
 	char alfabeto[t] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ',
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
 	};
